@@ -11,7 +11,7 @@ namespace Site.Controllers
 {
     public class ProdutoesController : Controller
     {
-        private readonly Context _context;
+        private readonly Context _context; // variavel que representa o banco de dados
 
         public ProdutoesController(Context context)
         {
