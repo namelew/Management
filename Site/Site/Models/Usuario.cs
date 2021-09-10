@@ -23,5 +23,11 @@ namespace Site
         [Required]
         [DisplayName("Estado Atual")]
         public bool logado { get; set; }
+
+        public Usuario()
+        {
+            privacidade = 1;
+            logado = false;
+        }
     }
 }

@@ -19,7 +19,12 @@ namespace Site.Controllers
         }
 
         // GET: Usuarios
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> List()
         {
             return View(await _context.Usuarios.ToListAsync());
         }

@@ -12,8 +12,9 @@ namespace Site
         public int Id { get; set; }
         [DisplayName("Ação")]
         public int acao { get; set; }
-        [DisplayName("ID do Produto")]
-        public int id_produto { get; set; }
+        [DisplayName("Produto")]
+        [ForeignKey("Id_Produto")]
+        public virtual Produto produto { get; set; }
         [DisplayName("Quantidade")]
         public int quantidade { get; set; }
         [DisplayName("Data da Transação")]

@@ -153,9 +153,8 @@ C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\U
 C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
 C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Usuarios\Edit.cshtml.g.cs
 C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
-C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Logs\Create.cshtml.g.cs
-C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Logs\Delete.cshtml.g.cs
 C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Logs\Details.cshtml.g.cs
-C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Logs\Edit.cshtml.g.cs
 C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Logs\Index.cshtml.g.cs
 C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Usuarios\List.cshtml.g.cs
+C:\Users\Diogo\Documents\Git\Management\Site\Site\obj\Debug\net5.0\Razor\Views\Logs\Create.cshtml.g.cs

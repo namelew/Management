@@ -26,5 +26,10 @@ namespace Site
         [DisplayName("Preço Unitário")]
         [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = true)]
         public float preco_unitario { get; set; }
+
+        public static implicit operator Produto(Log v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
