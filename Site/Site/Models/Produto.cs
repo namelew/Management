@@ -24,6 +24,7 @@ namespace Site
         [Required]
         [Range(0, float.MaxValue, ErrorMessage = "O campo não aceita valores negativos")]
         [DisplayName("Preço Unitário")]
+        [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = true)]
         public float preco_unitario { get; set; }
     }
 }

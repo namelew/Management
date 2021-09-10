@@ -148,5 +148,6 @@ namespace Site.Controllers
         {
             return _context.Usuarios.Any(e => e.Id == id);
         }
+        // logof: get(retornar pro home-index)
     }
 }

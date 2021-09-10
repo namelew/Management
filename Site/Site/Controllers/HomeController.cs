@@ -13,17 +13,22 @@ namespace Site.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly Context _context; // variavel que representa o banco de dados
+
+        public HomeController(ILogger<HomeController> logger, Context context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Produto> objList = _context.Estoque; 
+            return View(objList);
         }
 
-        public IActionResult Privacy()
+        //GET: HOME/LOGIN
+        public IActionResult Login()
         {
             return View();
         }
